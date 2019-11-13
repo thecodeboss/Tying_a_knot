@@ -1,4 +1,4 @@
-# wedding_website
+# Tying_a_knot
 
 > A Vue.js project
 
