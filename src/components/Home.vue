@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>Home</h1>
-    <p>Here is some information. This is the home page</p>
+    <p>This story took place awhile back in the middle of a very cold winter. <br> 
+       The streets were completely covered in white snow flakes, you could <br> 
+       not see lot of colours at all. </p>
   </div>
 </template>
 

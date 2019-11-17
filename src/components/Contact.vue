@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Contact Me</h1>
+    <h1>Contact Me and RSVP</h1>
   <p>
     <ul>
       <li>Email: {{email}}</li>
@@ -15,8 +15,8 @@ export default {
   name: 'Contact',
   data(){
     return {
-      email: 'maegan@maeganwilson.com',
-      web: 'maeganjwilson.github.com'
+      email: 'pandalovesteddy@gmail.com',
+      web: 'funcodingpanda.github.com'
     }
   }
 }
