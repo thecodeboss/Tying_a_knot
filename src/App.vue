@@ -3,13 +3,13 @@
     <div class="title"> Tying The Knot </div>
     <nav class="nav">
       <router-link to="/">Home</router-link>
-      <router-link to="/about">Event-Details</router-link>
+      <router-link to="/about">Love-Story</router-link>
       <router-link to="/rsvp">RSVP</router-link>
       <router-link to="/registry">Registry</router-link>
     </nav>
     <nav class="nav">
       <router-link to="/">Chính</router-link>
-      <router-link to="/about">Thông-Tin</router-link>
+      <router-link to="/about">Chuyện</router-link>
       <router-link to="/rsvp">Trả-Lời</router-link>
       <router-link to="/registry">Tình-Nguyện</router-link>
     </nav>

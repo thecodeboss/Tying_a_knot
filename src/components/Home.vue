@@ -1,9 +1,11 @@
 <template>
   <div>
-    <h1>Home</h1>
-    <p>This story took place awhile back in the middle of a very cold winter. <br> 
-       The streets were completely covered in white snow flakes, you could <br> 
-       not see lot of colours at all. </p>
+    <h1>Details</h1>
+    <p>We are going to have our wedding ceremony by the ocean next to a nice venue <br> 
+       called HK East Ocean Seafood Restaurant in Emeryville California which is 8 miles <br>
+       from San Francisco. The address is 3199 Powell St, Emeryville, CA 94608, US. <br>
+       Delicious food and alcohol such as lobster, wine and pink gin will be served.
+    </p>
   </div>
 </template>
 
