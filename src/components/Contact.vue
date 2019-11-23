@@ -1,12 +1,14 @@
 <template>
   <div>
-    <h1>Contact Me and RSVP</h1>
-  <p>
-    <ul>
-      <li>Email: {{email}}</li>
-      <li>Website: {{web}}</li>
-    </ul>
-  </p>
+    <b-container class="bv">
+      <h1>Contact Me and RSVP</h1>
+        <p>
+          <ul>
+            <li>Email: {{email}}</li>
+            <li>Website: {{web}}</li>
+          </ul>
+        </p>
+    </b-container>
   </div>
 </template>
 

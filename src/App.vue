@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <div class="title"> Tying The Knot </div>
-    <nav class="nav">
+    <nav class="navi">
       <router-link to="/">Home</router-link>
       <router-link to="/about">Love-Story</router-link>
       <router-link to="/rsvp">RSVP</router-link>
       <router-link to="/registry">Registry</router-link>
     </nav>
-    <nav class="nav">
+    <p>________________________________________________</p>
+    <nav class="navi">
       <router-link to="/">Chính</router-link>
       <router-link to="/about">Chuyện</router-link>
       <router-link to="/rsvp">Trả-Lời</router-link>
@@ -23,7 +24,6 @@ export default {
 </script>
 
 <style type="text/css">
-
 .title {
   font-family:"Morice Straight W03 Bold" !important;
   font-size:150px;font-style:normal;
@@ -34,8 +34,7 @@ export default {
   text-align: center;
   margin-bottom: 40px;
 }
-
-.nav {
+.navi {
   color: black;
   font-family: "Lucida Sans Unicode", Monaco;
   font-size: 22px;
@@ -43,15 +42,12 @@ export default {
   margin-top: 5px;
   text-align: center;
 }
-
-.nav a {
+.navi a {
   text-decoration: none;
   color: black;
 }
-
-.nav a:hover {
+.navi a:hover {
   background-color: rgba(255, 204, 204, 0.25);
   color: palevioletred;
 }
-
 </style>

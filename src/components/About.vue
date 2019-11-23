@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>Our Love Story</h1>
-    <p>
-      This story took place awhile back in the middle of a very cold winter. <br> 
-      The streets were completely covered in white snow flakes, you could <br> 
+    <b-container class="bv">
+      <h1>Our Love Story</h1>
+      This story took place awhile back in the middle of a very cold winter.  
+      The streets were completely covered in white snow flakes, you could 
       not see lot of colours at all. 
-    </p>
+    </b-container>
   </div>
 </template>
 
@@ -15,4 +15,8 @@ export default {
 }
 </script>
 <style>
+ .bv {
+  margin-top: 80px;
+  font-family: "Lucida Sans Unicode", Monaco;
+ }
 </style>
