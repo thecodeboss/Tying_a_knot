@@ -15,12 +15,29 @@
       <router-link to="/registry">Tình-Nguyện</router-link>
     </nav>
     <router-view />
+    <!-- Footer -->
+
+    <footer id="footer" class="page-footer font-small red">
+      <div class="footer-copyright py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> Michael and Sophie</a>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
-export default {
-}
+  
+  import { mdbFooter, mdbContainer, mdbRow, mdbCol } from 'mdbvue';
+  export default {
+    name: 'FooterPage',
+    components: {
+      mdbFooter,
+      mdbContainer,
+      mdbRow,
+      mdbCol
+    }
+  }
+
 </script>
 
 <style type="text/css">
@@ -50,4 +67,13 @@ export default {
   background-color: rgba(255, 204, 204, 0.25);
   color: palevioletred;
 }
+
+footer {
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:50px;
+  text-align: center;
+}
+
 </style>
