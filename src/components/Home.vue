@@ -27,7 +27,7 @@ export default {
 
 <style>
  .columns {
-  margin-top: 80px;
+  margin-top: 40px;
   font-family: "Lucida Sans Unicode", Monaco;
 
  }
