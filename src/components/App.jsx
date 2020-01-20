@@ -1,6 +1,7 @@
 import { h, Fragment } from 'preact';
 import { Router } from 'preact-router';
 import { Link } from 'preact-router/match';
+import { createHashHistory } from 'history';
 
 import About from './About';
 import Home from './Home';
@@ -13,7 +14,7 @@ const App = () => {
       <div className="title">Tying The Knot</div>
       <nav className="navi">
         <div className="vertical-links">
-          <Link activeClassName="active" href="/en">
+          <Link activeClassName="active" href="/">
             Home
           </Link>
           <Link activeClassName="active" href="/vn">
@@ -45,7 +46,7 @@ const App = () => {
           </Link>
         </div>
       </nav>
-      <Router>
+      <Router history={createHashHistory()}>
         <Home path="/:lang?" />
         <About path="/:lang/about" />
         <Rsvp path="/:lang/rsvp" />
@@ -54,7 +55,7 @@ const App = () => {
       <footer id="footer" className="page-footer font-small red">
         <div className="footer-copyright py-3">
           © 2020 Copyright:
-          <a href="https://mdbootstrap.com/education/bootstrap/"> Michael and Sophie</a>
+          <Link href="/"> Michael and Sophie</Link>
         </div>
       </footer>
     </>

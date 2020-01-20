@@ -22,7 +22,7 @@ const translations = {
   },
 };
 
-const About = ({ lang }) => (
+const About = ({ lang = 'en' }) => (
   <div className="content columns">
     <div className="column">
       <Carousel className="carousel-about" intervalMs={6000}>
@@ -30,8 +30,8 @@ const About = ({ lang }) => (
         <img className="carousel-img" src="https://picsum.photos/1024/480/?image=54" />
         <img className="carousel-img" src="https://picsum.photos/1024/480/?image=58" />
       </Carousel>
-      <h1 className="tac">{translations[lang].title}</h1>
-      {translations[lang].details}
+      <h1 className="tac">{translations[lang || 'en'].title}</h1>
+      {translations[lang || 'en'].details}
     </div>
   </div>
 );

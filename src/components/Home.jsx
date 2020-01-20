@@ -47,16 +47,16 @@ const Home = ({ lang }) => (
   <div className="content columns">
     <div className="mr">
       <h2>MICHAEL & SOPHIE</h2>
-      <h2>{translations[lang].date}</h2>
+      <h2>{translations[lang || 'en'].date}</h2>
       <h2>Emeryville</h2>
       <h2 id="subtitle">
-        <u>{translations[lang].info}</u>
+        <u>{translations[lang || 'en'].info}</u>
       </h2>
-      {translations[lang].infoDetails}
+      {translations[lang || 'en'].infoDetails}
       <h2 id="subtitle">
-        <u>{translations[lang].preparation}</u>
+        <u>{translations[lang || 'en'].preparation}</u>
       </h2>
-      {translations[lang].preparationDetails}
+      {translations[lang || 'en'].preparationDetails}
     </div>
     <div className="portrait">
       <img src="https://wallpapercave.com/wp/wp2553950.jpg" />

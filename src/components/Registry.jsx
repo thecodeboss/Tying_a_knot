@@ -15,11 +15,11 @@ const translations = {
   },
 };
 
-const Registry = ({ lang }) => (
+const Registry = ({ lang = 'en' }) => (
   <div className="content columns">
     <div className="column">
-      <h1 className="tac">{translations[lang].title}</h1>
-      {translations[lang].details}
+      <h1 className="tac">{translations[lang || 'en'].title}</h1>
+      {translations[lang || 'en'].details}
     </div>
   </div>
 );
