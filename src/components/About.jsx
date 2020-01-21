@@ -22,25 +22,53 @@ const translations = {
   },
 };
 
+const images = [
+  {
+    name: 'london.jpg',
+    alt: 'London Tower Bridge',
+  },
+  {
+    name: 'cake.jpg',
+    alt: 'Eating birthday cake',
+  },
+  {
+    name: 'egypt.jpg',
+    alt: 'Our visit to Egypt',
+  },
+  {
+    name: 'hiking.jpg',
+    alt: 'Hiking together',
+  },
+  {
+    name: 'nightmarket.jpg',
+    alt: 'Visiting the Night Market in Vancouver',
+  },
+  {
+    name: 'owl.jpg',
+    alt: "Enjoying a 'Hootie Hoo' together",
+  },
+  {
+    name: 'stpattys.jpg',
+    alt: "St. Patrick's Day celebrations",
+  },
+  {
+    name: 'sunglasses.jpg',
+    alt: 'Just having fun',
+  },
+];
+
 const About = ({ lang = 'en' }) => (
   <div className="content columns">
     <div className="column">
       <Carousel className="carousel-about" intervalMs={6000}>
-        <img
-          className="carousel-img"
-          src="https://picsum.photos/1024/480/?image=52"
-          alt="Stock image 1"
-        />
-        <img
-          className="carousel-img"
-          src="https://picsum.photos/1024/480/?image=54"
-          alt="Stock image 2"
-        />
-        <img
-          className="carousel-img"
-          src="https://picsum.photos/1024/480/?image=58"
-          alt="Stock image 3"
-        />
+        {images.map(img => (
+          <img
+            key={img.name}
+            className="carousel-img"
+            src={`https://mikeandsophie.s3.us-west-1.amazonaws.com/${img.name}`}
+            alt={img.alt}
+          />
+        ))}
       </Carousel>
       <h1 className="tac">{translations[lang || 'en'].title}</h1>
       {translations[lang || 'en'].details}
