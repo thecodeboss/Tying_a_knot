@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.jsx",
   "scripts": {
-    "build": "NODE_ENV=production webpack --progress --hide-modules && echo www.mikeandsophie.com > dist/CNAME",
+    "build": "NODE_ENV=production webpack --progress --hide-modules && echo www.mikeandsophie.com > dist/CNAME && cp public/robots.txt dist/robots.txt",
     "deploy": "npm run build && gh-pages -d dist",
     "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
