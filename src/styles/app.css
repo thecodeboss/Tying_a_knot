@@ -1,26 +1,10 @@
-@font-face {
-  font-family: 'Morice Straight W03 Bold';
-  src: url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.eot'); /* IE9*/
-  src: url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.woff2')
-      format('woff2'),
-    /* chrome firefox */
-      url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.woff') format('woff'),
-    /* chrome firefox */ url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.ttf')
-      format('truetype'),
-    /* chrome firefox opera Safari, Android, iOS 4.2+*/
-      url('https://db.onlinewebfonts.com/t/2ed70bbaeeb682103949b4358616bedf.svg#Morice Straight W03 Bold')
-      format('svg'); /* iOS 4.1- */
-}
-
 body {
   margin: 0;
   padding: 0;
 }
 
 .title {
-  font-family: 'Morice Straight W03 Bold' !important;
+  font-family: 'Morice Straight W03 Bold', 'Lucida Sans Unicode', Monaco, sans-serif;
   font-size: 150px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -51,7 +35,7 @@ body {
 
 .navi {
   color: black;
-  font-family: 'Lucida Sans Unicode', Monaco;
+  font-family: 'Lucida Sans Unicode', Monaco, sans-serif;
   font-size: 22px;
   letter-spacing: 10px;
   text-align: center;
@@ -162,7 +146,7 @@ h2 {
   }
 }
 
-#subtitle {
+.subtitle {
   margin-top: 40px;
 }
 

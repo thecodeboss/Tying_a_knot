@@ -49,17 +49,17 @@ const Home = ({ lang }) => (
       <h2>MICHAEL & SOPHIE</h2>
       <h2>{translations[lang || 'en'].date}</h2>
       <h2>Emeryville</h2>
-      <h2 id="subtitle">
+      <h2 className="subtitle">
         <u>{translations[lang || 'en'].info}</u>
       </h2>
       {translations[lang || 'en'].infoDetails}
-      <h2 id="subtitle">
+      <h2 className="subtitle">
         <u>{translations[lang || 'en'].preparation}</u>
       </h2>
       {translations[lang || 'en'].preparationDetails}
     </div>
     <div className="portrait">
-      <img src="https://wallpapercave.com/wp/wp2553950.jpg" />
+      <img src="https://wallpapercave.com/wp/wp2553950.jpg" alt="Stock image" />
     </div>
   </div>
 );

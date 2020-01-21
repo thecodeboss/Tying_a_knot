@@ -26,9 +26,21 @@ const About = ({ lang = 'en' }) => (
   <div className="content columns">
     <div className="column">
       <Carousel className="carousel-about" intervalMs={6000}>
-        <img className="carousel-img" src="https://picsum.photos/1024/480/?image=52" />
-        <img className="carousel-img" src="https://picsum.photos/1024/480/?image=54" />
-        <img className="carousel-img" src="https://picsum.photos/1024/480/?image=58" />
+        <img
+          className="carousel-img"
+          src="https://picsum.photos/1024/480/?image=52"
+          alt="Stock image 1"
+        />
+        <img
+          className="carousel-img"
+          src="https://picsum.photos/1024/480/?image=54"
+          alt="Stock image 2"
+        />
+        <img
+          className="carousel-img"
+          src="https://picsum.photos/1024/480/?image=58"
+          alt="Stock image 3"
+        />
       </Carousel>
       <h1 className="tac">{translations[lang || 'en'].title}</h1>
       {translations[lang || 'en'].details}

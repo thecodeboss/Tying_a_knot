@@ -52,11 +52,9 @@ const App = () => {
         <Rsvp path="/:lang/rsvp" />
         <Registry path="/:lang/registry" />
       </Router>
-      <footer id="footer" className="page-footer font-small red">
-        <div className="footer-copyright py-3">
-          © 2020 Copyright:
-          <Link href="/"> Michael and Sophie</Link>
-        </div>
+      <footer className="page-footer">
+        © 2020 Copyright:
+        <Link href="/"> Michael and Sophie</Link>
       </footer>
     </>
   );
