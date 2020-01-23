@@ -59,7 +59,10 @@ const Home = ({ lang }) => (
       {translations[lang || 'en'].preparationDetails}
     </div>
     <div className="portrait">
-      <img src="https://wallpapercave.com/wp/wp2553950.jpg" alt="Stock image" />
+      <img
+        src="https://mikeandsophie.s3.us-west-1.amazonaws.com/wedding.jpg"
+        alt="All dressed up"
+      />
     </div>
   </div>
 );
