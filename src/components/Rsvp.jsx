@@ -5,8 +5,8 @@ const translations = {
     title: 'Contact us to RSVP',
     details: (
       <>
-        We'd love to have you at our wedding! Just send us a message through any means you like to
-        let us know you're coming.
+        We'd love to have you at our wedding! Just send us a message through any means to let us
+        know you're coming.
       </>
     ),
   },

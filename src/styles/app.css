@@ -116,6 +116,10 @@ footer a {
   .columns {
     flex-direction: column;
   }
+  .columns .mr {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
 }
 
 .mr {
@@ -180,4 +184,23 @@ h2 {
 
 .tac {
   text-align: center;
+}
+
+a.button {
+  appearance: button;
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a.registry {
+  background-color: #4cb9a3;
+  color: white;
+  border-radius: 2px;
+}
+
+a.registry:hover {
+  background-color: #5dcab4;
 }

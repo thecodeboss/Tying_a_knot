@@ -17,7 +17,9 @@ const translations = {
       <>
         <b>Dress code</b>: cocktail attire but light. <br />
         <b>Venue</b>: Please procceed to the park next to the venue first for the ceremony and be
-        back at 7:00 pm for the reception Accomodation: Airbnb or Hampton Inn Oakland Hotel.
+        back at 7:00 pm for the reception.
+        <br />
+        <b>Accomodation</b>: Airbnb or hotel.
       </>
     ),
   },
@@ -36,8 +38,11 @@ const translations = {
     preparationDetails: (
       <>
         <b>Trang phục</b>: trang phục cocktail nhưng nhẹ nhàng.
+        <br />
         <b>Địa điểm</b>: Vui lòng đến công viên bên cạnh địa điểm đầu tiên cho buổi lễ và trở lại
-        lúc 7:00 tối để tiếp nhận Chỗ ở: Airbnb hoặc Hampton Inn Oakland Hotel.
+        lúc 7:00 tối để tiếp nhận.
+        <br />
+        <b>Chỗ ở</b>: Airbnb hoặc hotel.
       </>
     ),
   },
